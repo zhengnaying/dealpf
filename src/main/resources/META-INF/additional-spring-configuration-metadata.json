@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.qcloud.secretId",
+      "type": "java.lang.String",
+      "description": "Description for spring.qcloud.secretId."
+  }
+] }
