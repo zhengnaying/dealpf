@@ -5,12 +5,10 @@ import lombok.Data;
 import lombok.ToString;
 
 
-import java.io.Serializable;
-
 @ToString
 @Data
 public class User {
-    private Long User_id;
+    private int User_id;
     private String User_name;
     private String User_password;
     private String User_gender;
@@ -20,4 +18,8 @@ public class User {
     private String User_email;
     private String User_role;
     private int User_state;
+    private String User_uuid;
+    private double User_totalMoney;
+    private double User_curruntMoney;
+    private int User_intergral;
 }
